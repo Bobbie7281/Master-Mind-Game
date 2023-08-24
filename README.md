@@ -4,4 +4,20 @@ This is similar to the original Master Mind Game with the difference that it use
 The minimum number is 1111 and the maximum number is 8888.
 The auto generated code can contain different numbers and also numbers with the same value.... example 5 6 8 9 or 1 1 9 5 or 8 8 8 6 ecc...
 
-The game will start from bottom row and makes it's way up to the last row on top. The row marked in green is the row where the user have to input his guess. The others marked in grey will not be accessable
+The game will start from bottom row and makes it's way up to the last row on top. The row marked in green is the row where the user have to input his guess. The others marked in grey will not be accessable.
+When the user inputs his guess, the Check button located next to each row, has to be pressed in order for the program to generate the result.
+The result will be displayed on the left side of each row and it will consist of 1's, 0's & -. 
+- 1 means that a particular number is correct and in a good position.
+- 0 means that a particular number is correct but it's not in a good position.
+- - means that a particular number doesn't exist in the auto generated code.
+
+Example: 
+Generated code = 1 1 2 4
+Player's  code = 1 2 3 4
+Result will be = 1 0 - 1
+
+The result displayed above is for illustration purpose only. While the game is being played the result will not be displayed in any particular order which will provide hints to the player which of the numbers are correct or not. The above result will be displayed as follows:
+1 1 
+0 -
+
+During the game the player can reset the board at any time the game will restart from the begining.
