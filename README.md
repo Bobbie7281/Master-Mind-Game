@@ -7,9 +7,9 @@ The auto generated code can contain different numbers and also numbers with the 
 The game will start from bottom row and makes it's way up to the last row on top. The row marked in green is the row where the user have to input his guess. The others marked in grey will not be accessable.
 When the user inputs his guess, the Check button located next to each row, has to be pressed in order for the program to generate the result.
 The result will be displayed on the left side of each row and it will consist of 1's, 0's & -. 
-- 1 means that a particular number is correct and in a good position.
-- 0 means that a particular number is correct but it's not in a good position.
-- - means that a particular number doesn't exist in the auto generated code.
+A 1 means that a particular number is correct and in a good position.
+B 0 means that a particular number is correct but it's not in a good position.
+C - means that a particular number doesn't exist in the auto generated code.
 
 Example: 
 Generated code = 1 1 2 4
